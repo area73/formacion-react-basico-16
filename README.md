@@ -2,7 +2,7 @@
 
 ## Lecciones aprendidas
 
-Hemos visto que podemos crear coimponentes react diréctasmente en una única página html añadiendo las librerías de javascript de react y creando elementos utilizando 2 librerías de react (react y react DOM)
+Hemos visto que podemos crear componentes react diréctasmente en una única página html añadiendo las librerías de javascript de react y creando elementos utilizando 2 librerías de react (react y react DOM)
 
 ```javascript
 
@@ -36,7 +36,7 @@ NOTA: Esto hacerlo sólo el instructor a modo de ejemplo.
     a javascript pero tiene algunas diferencias que nos aydan a poder trabajar con los componenres de forma más sencilla
     * Si además ahora usamos JSX también tendríamos que "transpilar" nuestro JSX en JS y luego en JS "legacy"
     * Cada vez que hicieramos un proyecto tendríamos que configurar un montón e paquetes, así que el equipo de React ha creado  un paquete propio llamado
-    create-react-app que nos va a instalar y configurar todas estas cosas de forma automática 
+    [create-react-app](https://github.com/facebook/create-react-app) que nos va a instalar y configurar todas estas cosas de forma automática 
     
     
 
