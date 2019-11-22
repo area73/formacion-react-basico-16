@@ -19,3 +19,12 @@ npm start
 2) ¡ mirar todo lo que ha instaldo !
 
 3) arrancar el servidor `npm start`
+
+4) Ver la nueva estrcutura de un componente react
+    * Mirar cómo está importando los recursos estáticos (imágenes y css)
+    
+
+
+NOTA: SI no funciona el parseo del JSX forzar al ide a que interprete el JS como JSX (Preferences -> Editor -> File Types -> React JSX -> Add registered pattern "*.js")
+
+NOTA: [swapi (Star Wars API)](https://swapi.co/)
