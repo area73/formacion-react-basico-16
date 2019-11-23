@@ -6,22 +6,11 @@
 * Hemos separado nuestro código en diferentes ficheros , instalado paquetes con NPM y visto la cantidad de librerías que necesitamos usar en un proyecto React (transpiladores, bundelizadores, servidores, etc)
 * Afortunadamente el equipo de react ha creado una librería llamada create-react-app que hace el "trabajo sucio" de configuración por nosotros
 * Hemos creado una nueva app y vemos como se utilizan ahora los componentes con JSX
+* Hemos creado un componente card
 
+## Añadiendo proipiedades
 
-## Crerando mi pruimer componente JSX
-
-1) Vamos a crear una card de personajes de Star Wars 
-
-2) necesitaremos crear un componente (Card.js) y un archivo css (card.css)
-
-3) utilizaremos la información de [swapi (Star Wars API)](https://swapi.co/)
-
-4) Empezamos con el primero "Luke" y queremos poner estos datos mas una imagen:
-    * "name": "Luke Skywalker",
-    * "height": "172",
-    * "mass": "77",
-    * "hair_color": "blond",
-    * "skin_color": "fair",
-    * "eye_color": "blue",
-    * "birth_year": "19BBY",
-    * "gender": "male",
+* Como hemos visto podemos poner varias cards a la vez pero, todas son iguales !!, ahora vamos a ver como podemos pasar datos a nuestros componentes
+* Vamos a usar las props
+* Nuestro componente padre pasará un objeto a nuestro componente hijo
+* El componente hijo será el responsable de formatear esa información 
