@@ -5,26 +5,23 @@
 * Hemos creado un componente diréctamernte en javascript usando las dos librerías de React (React y React-DOM)
 * Hemos separado nuestro código en diferentes ficheros , instalado paquetes con NPM y visto la cantidad de librerías que necesitamos usar en un proyecto React (transpiladores, bundelizadores, servidores, etc)
 * Afortunadamente el equipo de react ha creado una librería llamada create-react-app que hace el "trabajo sucio" de configuración por nosotros
+* Hemos creado una nueva app y vemos como se utilizan ahora los componentes con JSX
 
 
-## Crerando mi primera aplicación React
+## Crerando mi pruimer componente JSX
 
-1) Para crear un nuevo proyecto react con create-react-app debemos ejecutar:
-NOTA: Ya está creada la app en la rama
-```bash
-npx create-react-app star-wars
-cd star-wars
-npm start
-```  
-2) ¡ mirar todo lo que ha instaldo !
+1) Vamos a crear una card de personajes de Star Wars 
 
-3) arrancar el servidor `npm start`
+2) necesitaremos crear un componente (Card.js) y un archivo css (card.css)
 
-4) Ver la nueva estrcutura de un componente react
-    * Mirar cómo está importando los recursos estáticos (imágenes y css)
-    
+3) utilizaremos la información de [swapi (Star Wars API)](https://swapi.co/)
 
-
-NOTA: SI no funciona el parseo del JSX forzar al ide a que interprete el JS como JSX (Preferences -> Editor -> File Types -> React JSX -> Add registered pattern "*.js")
-
-NOTA: [swapi (Star Wars API)](https://swapi.co/)
+4) Empezamos con el primero "Luke" y queremos poner estos datos mas una imagen:
+    * "name": "Luke Skywalker",
+    * "height": "172",
+    * "mass": "77",
+    * "hair_color": "blond",
+    * "skin_color": "fair",
+    * "eye_color": "blue",
+    * "birth_year": "19BBY",
+    * "gender": "male",
