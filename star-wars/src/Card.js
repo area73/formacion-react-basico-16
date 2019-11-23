@@ -6,6 +6,7 @@ const Card = ({props}) => {
     // TODO: DESTRCUTURING
     /*
     const {
+        img
         name,
         height,
         mass,
@@ -18,7 +19,7 @@ const Card = ({props}) => {
     return (
        <div class="card">
            <div class="card__image">
-                <img src={thumb}/>
+                <img src={props.img}/>
            </div>
            <div class="card__info">
                <p><span>Nombre</span>{props.name}</p>

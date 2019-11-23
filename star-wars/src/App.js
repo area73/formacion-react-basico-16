@@ -15,6 +15,7 @@ function App() {
       <div style={{width:'200px', padding:'10px', display:'inline-block'}}>
         <Card  props={
             {
+                img:'01-luke.jpeg',
                 name: "Luke Skywalker",
                 height: "172",
                 mass: "77",
@@ -29,6 +30,7 @@ function App() {
         <div style={{width:'200px', padding:'10px',  display:'inline-block'}}>
             <Card props={
                 {
+                img:'Darth-Vader.jpg',
                 name: "Darth Vader",
                 height: "202",
                 mass: "136",
@@ -43,6 +45,7 @@ function App() {
         <div style={{width:'200px', padding:'10px',  display:'inline-block'}}>
             <Card props={
                 {
+                    img:'leia-organa.jpg',
                     name: "Leia Organa",
                     height: "150",
                     mass: "49",
