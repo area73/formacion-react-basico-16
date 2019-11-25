@@ -13,4 +13,6 @@
 * Como hemos visto podemos poner varias cards a la vez pero, todas son iguales !!, ahora vamos a ver como podemos pasar datos a nuestros componentes
 * Vamos a usar las props
 * Nuestro componente padre pasará un objeto a nuestro componente hijo
-* El componente hijo será el responsable de formatear esa información 
+* El componente hijo será el responsable de formatear esa información
+* Bola extra: destructurar las porpiedades
+* Bola extra: crear funciones para traducir los resultados
