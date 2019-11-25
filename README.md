@@ -7,12 +7,9 @@
 * Afortunadamente el equipo de react ha creado una librería llamada create-react-app que hace el "trabajo sucio" de configuración por nosotros
 * Hemos creado una nueva app y vemos como se utilizan ahora los componentes con JSX
 * Hemos creado un componente card
+* Hemos creado un componenet dinámico pasándole props
 
 ## Añadiendo proipiedades
 
-* Como hemos visto podemos poner varias cards a la vez pero, todas son iguales !!, ahora vamos a ver como podemos pasar datos a nuestros componentes
-* Vamos a usar las props
-* Nuestro componente padre pasará un objeto a nuestro componente hijo
-* El componente hijo será el responsable de formatear esa información
-* Bola extra: destructurar las porpiedades
-* Bola extra: crear funciones para traducir los resultados
+* vampos a crear un componente hijo que será un botón y añadirlo al padre
+* creamos el componente Btn

@@ -15,7 +15,7 @@ function App() {
       <div style={{width:'200px', padding:'10px', display:'inline-block'}}>
         <Card  props={
             {
-                img:'01-luke.jpeg',
+                img:"01-luke.jpeg",
                 name: "Luke Skywalker",
                 height: "172",
                 mass: "77",
@@ -24,13 +24,14 @@ function App() {
                 eye_color: "blue",
                 birth_year: "19BBY",
                 gender: "male",
+                enlace:"http://www.sw01.com"
             }
         }/>
       </div>
         <div style={{width:'200px', padding:'10px',  display:'inline-block'}}>
             <Card props={
                 {
-                img:'Darth-Vader.jpg',
+                img:"Darth-Vader.jpg",
                 name: "Darth Vader",
                 height: "202",
                 mass: "136",
@@ -38,14 +39,15 @@ function App() {
                 skin_color: "white",
                 eye_color: "yellow",
                 birth_year: "41.9BBY",
-                gender: "male"
+                gender: "male",
+                enlace:"http://www.sw02.com"
                 }
             }/>
         </div>
         <div style={{width:'200px', padding:'10px',  display:'inline-block'}}>
             <Card props={
                 {
-                    img:'leia-organa.jpg',
+                    img:"leia-organa.jpg",
                     name: "Leia Organa",
                     height: "150",
                     mass: "49",
@@ -54,6 +56,7 @@ function App() {
                     eye_color: "brown",
                     birth_year: "19BBY",
                     gender: "female",
+                    enlace:"http://www.sw03.com"
                 }
             }/>
         </div>

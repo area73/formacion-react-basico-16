@@ -1,11 +1,12 @@
 .card {
     border-radius: 10px;
     box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.1);
-
+    overflow: hidden;
 }
 
 .card__image img {
-    width:100%;
+    width:auto;
+    height: 120px;
 }
 
 .card__info {
