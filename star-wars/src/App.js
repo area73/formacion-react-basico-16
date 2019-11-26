@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Btn from "./Btn";
+import Contador from "./parent2child/Contador";
 
 
 function App() {
@@ -11,9 +11,7 @@ function App() {
           Clases y estados
         </p>
       </header>
-        <div style={{padding:'20px'}}>
-            Contador: <Btn  />
-        </div>
+        <Contador />
     </div>
   );
 }
