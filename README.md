@@ -13,3 +13,5 @@ Vamos a crear un marcador, para ello Nos vamos a crear dos componentes:
     * crear un tercer nivel por ejemplo: marcador --> 2 contadores --> 2 --> incrementadores (cada marcador)
     
 
+
+
