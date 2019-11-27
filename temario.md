@@ -56,9 +56,6 @@ Componentes Padre e Hijo
 
 # Eventos
 
-# Listas
-
-
 # Formularios
 
 # React Router
@@ -77,6 +74,8 @@ Obteniendo datos de una API
 # Testing con Jest
 
 # Introducción a Redux
+
+React developer tools (https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
 Actions
 
