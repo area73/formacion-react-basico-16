@@ -1,15 +1,16 @@
 # formacion-react-basico-16
 
 
-## Comunicación entre padre e hijo
+## Aplicando estilos en react
 
-Vamos a crear un marcador, para ello Nos vamos a crear dos componentes:
-* El componente padre tendrá el tanteo
-* el componente hijo será el que tenga los botones de + y -
-* pasamos los datso del padre al hijo mediate props
-* pasamos los datos del hijo al padre delegando el comportamiento en el padre mediante eventos
+Nos creamos un proyecto con create-react-app y usamos cssmodules  
 
-* Bola extra:
-    * crear un tercer nivel por ejemplo: marcador --> 2 contadores --> 2 --> incrementadores (cada marcador)
-    
+* Dentro del proyecto nos creamos un nuevo componente (Link) que va a ser similar al <A> que existe en la app
+
+* Nos creamos una hoja de estilos pero con la particularidad de que lo nombramos <nombre>.module.css
+
+* cosas a destacar:
+    - objetos
+    - composes: Para componer estilos
+
 
