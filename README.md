@@ -3,8 +3,9 @@
 
 ## Comunicación entre padre e hijo
 
-Creamos una paliucación desde cero se llamara marcador:
-npx create-react-app marcador
+Creamos una aplicación desde cero se llamará marcador:
+
+`npx create-react-app marcador`
 
 Vamos a crear un marcador, para ello nos vamos a crear dos componentes:
 * El componente padre tendrá el tanteo (Contador)y tendrá estado
