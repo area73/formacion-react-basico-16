@@ -12,6 +12,7 @@ Vamos a crear un marcador, para ello nos vamos a crear dos componentes:
 * el componente hijo será el que tenga los botones de + o de - y sera sin estado (stateless) 
 * pasamos los datos del padre al hijo mediate props
 * pasamos los datos del hijo al padre delegando el comportamiento en el padre mediante eventos
+* Instalar el add-on de chrome sobre react --> React Developer Tools
 
 * Bola extra:
     * crear un tercer nivel por ejemplo: marcador --> 2 contadores --> 2 --> incrementadores (cada marcador)
